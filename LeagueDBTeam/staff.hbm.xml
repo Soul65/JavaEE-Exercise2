@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+  <class name="Staff" table="STAFF">
+
+      <id name="staffID" column="STAFFID" not-null="true">
+	  	<generator class="native"/>
+	  </id>
+
+	  <property name="lastName" not-null="true">
+		 <column name="LASTNAME" />
+	  </property>
+
+	  <property name="firstName" not-null="true">
+		 <column name="FIRSTNAME" />
+	  </property>
+	  
+	  <property name="streetAddress" not-null="false">
+		 <column name="STREETADDRESS" />
+	  </property>
+	  
+	  <property name="city" not-null="false">
+		 <column name="CITY" />
+	  </property>
+	  
+	  <property name="stateProvince" not-null="false">
+		 <column name="STATE_PROVINCE" />
+	  </property>
+	  
+	  <property name="postalCode" not-null="false">
+		 <column name="POSTALCODE" />
+	  </property>
+	  
+	  <property name="country" not-null="false">
+		 <column name="COUNTRY" />
+	  </property>
+	  
+	  <property name="phone" not-null="false">
+		 <column name="PHONE" />
+	  </property>
+	  
+	  <property name="mobile" not-null="false">
+		 <column name="MOBILE" />
+	  </property>
+	  
+	  <property name="email" not-null="false">
+		 <column name="EMAIL" />
+	  </property>
+	  
+	  <property name="certification" not-null="false">
+		 <column name="CERTIFICATION" />
+	  </property>
+	  
+   </class>
+
+</hibernate-mapping>

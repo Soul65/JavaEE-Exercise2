@@ -1,0 +1,22 @@
+<<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+  <class name="League" table="LEAGUE">
+
+      <id name="leagueID" column="LEAGUEID" not-null="true">
+	  	<generator class="native"/>
+	  </id>
+
+	  <property name="lastName" not-null="true">
+		 <column name="LASTNAME" />
+	  </property>
+
+	  <property name="leagueSponsor" not-null="false">
+		 <column name="LEAGUESPONSOR" />
+	  </property>
+   </class>
+
+</hibernate-mapping>
