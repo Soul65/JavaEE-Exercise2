@@ -4,6 +4,7 @@ import java.sql.DriverManager;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Properties;
 
 import org.hibernate.Session;
@@ -15,7 +16,7 @@ import org.hibernate.service.ServiceRegistryBuilder;
 public class TeamDemo
 {
 
-	public static void main(String[] args) throws SQLException
+	public static void main(String[] args) //throws Exception
 	{
 		// TODO Auto-generated method stub
 		Session session = null;
@@ -40,8 +41,15 @@ public class TeamDemo
 		    	sessionFactory = configuration.buildSessionFactory(serviceRegistry);
 		    	
 		       session = sessionFactory.openSession();
+		       
+		       String query = "from Team t where t.teamName = ? and t.league = 'NHL'";
+		       List teams = session.createQuery(query).setString(0, "Chicago Blackhawks").list();
+		       for(int i =0; i<teams.size();i++)
+		       {
+		    	   System.out.println(teams.get(i));
+		       }
 		}
-		catch (SQLException e)
+		catch (Exception e)
 		{
 			e.printStackTrace();
 		}
