@@ -6,17 +6,42 @@
 
   <class name="Team" table="TEAM">
 
-      <id name="teamID" column="TEAMID" >
+      <id name="teamID" column="TEAMID" not-null="true">
 	  	<generator class="native"/>
 	  </id>
 
+	  <property name="league" not-null="true">
+		 <column name="LEAGUE" />
+	  </property>
+
+	  <property name="sponsor" not-null="false">
+		 <column name="SPONSOR" />
+	  </property>
+	  
 	  <property name="teamName" not-null="true">
 		 <column name="teamName" />
 	  </property>
-
-	  <property name="price">
-		<column name="PRICE"/>
+	  
+	  <property name="headCoach" not-null="false">
+		 <column name="HEADCOACH" />
 	  </property>
+	  
+	  <property name="asstCoach" not-null="false">
+		 <column name="ASSTCOACH" />
+	  </property>
+	  
+	  <property name="trainer" not-null="false">
+		 <column name="TRAINER" />
+	  </property>
+	  
+	  <property name="manager" not-null="false">
+		 <column name="MANAGER" />
+	  </property>
+	  
+	  <property name="website" not-null="false">
+		 <column name="WEBSITE" />
+	  </property>
+	  
    </class>
 
 </hibernate-mapping>
