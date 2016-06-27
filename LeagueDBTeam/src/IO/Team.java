@@ -28,10 +28,10 @@ public class Team
 	public void setLeague(League league) {
 		this.league = league;
 	}
-	private String getSponsor() {
+	public String getSponsor() {
 		return sponsor;
 	}
-	private void setSponsor(String sponsor) {
+	public void setSponsor(String sponsor) {
 		this.sponsor = sponsor;
 	}
 	public String getTeamName() {

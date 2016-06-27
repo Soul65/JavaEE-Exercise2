@@ -14,6 +14,8 @@ import org.hibernate.service.*;
 //import org.hibernate.service.ServiceRegistryBuilder;
 
 import IO.Team;
+import IO.Staff;
+import IO.League;
 
 public class TeamDemo
 {
@@ -34,8 +36,8 @@ public class TeamDemo
 		        Version 4 libraries. */
 
 		    	Configuration configuration = new Configuration()
-		    		.addResource("hibernate.cfg.xml")
-		    		.setProperty("hibernate.dialect", "org.hibernate.dialect.DerbyDialect");
+		    		.addResource("hibernate.cfg.xml");
+		    		
 		    	configuration.configure();
 		    	serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();        
 		    	sessionFactory = configuration.buildSessionFactory(serviceRegistry);
@@ -50,7 +52,57 @@ public class TeamDemo
 		       {
 		    	   System.out.println(currentTeam.getTeamName());
 		    	   System.out.println(currentTeam.getHeadCoach().getFullName());
+		    	   System.out.println(currentTeam.getAsstCoach().getFullName());
+		    	   System.out.println(currentTeam.getManager().getFullName());
+		    	   System.out.println(currentTeam.getTrainer().getFullName());
+		    	   System.out.println(currentTeam.getSponsor());
+		    	   System.out.println(currentTeam.getLeague().getLeagueName());
 		       }
+		       
+		       //Insert new ficticious team
+		       Team newTeam = new Team();
+		       
+		       League newLeague = new League();
+		       newLeague.setLeagueID("NHL");
+		       
+		       newTeam.setTeamID("ALD506");
+		       newTeam.setTeamName("newbies");
+		       newTeam.setLeague(newLeague);
+
+		       
+		       Staff newHc = new Staff();
+		       newHc.setFirstName("Newbie");
+		       newHc.setLastName("lastname");
+		       newTeam.setHeadCoach(newHc);
+		       
+		       Staff newAc = new Staff();
+		       newAc.setFirstName("Bob");
+		       newAc.setLastName("Loblaw");
+		       newTeam.setAsstCoach(newAc);
+		       
+		       Staff newManager = new Staff();
+		       newManager.setFirstName("Man");
+		       newManager.setLastName("Age");
+		       newTeam.setManager(newManager);
+		       
+		       Staff newTrainer = new Staff();
+		       newTrainer.setFirstName("Thomas");
+		       newTrainer.setLastName("Tank Engine");
+		       newTeam.setTrainer(newTrainer);
+		       
+		       Transaction tx = session.beginTransaction();
+		       
+		       session.save(newHc);
+		       session.save(newAc);
+		       session.save(newManager);
+		       session.save(newTrainer);
+		       
+		       session.save(newTeam);		       
+		       
+		       session.getTransaction().rollback();
+		       
+		       session.close();
+		       
 		}
 		catch (Exception e)
 		{

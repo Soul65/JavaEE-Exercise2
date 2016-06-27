@@ -8,7 +8,7 @@
 
       <id name="teamID">
       	<column name="TEAMID" not-null="true"/>
-	  	<generator class="native"/>
+	  	<generator class="assigned"/>
 	  </id>
 
 
