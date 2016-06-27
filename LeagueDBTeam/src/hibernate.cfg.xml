@@ -9,9 +9,9 @@
 
    <property name="hibernate.connection.driver_class">org.apache.derby.jdbc.ClientDriver</property>
 
-   <property name="hibernate.connection.url">jdbc:derby://localhost:1527/sample;create=true</property>
+   <property name="hibernate.connection.url">jdbc:derby://localhost:1527/sample;traceFile=trace.out;traceLevel=7</property>
 
-   <property name="hibernate.connection.username">user</property>
+   <property name="hibernate.connection.username">gpaulley</property>
    <property name="hibernate.connection.password">1234</property>
    <property name="hibernate.connection.pool_size">10</property>
    <property name="show_sql">true</property>
@@ -20,6 +20,7 @@
    <mapping resource="staff.hbm.xml"/>
    <mapping resource="league.hbm.xml"/>
    <mapping resource="team.hbm.xml"/>
+
 
    </session-factory>
 

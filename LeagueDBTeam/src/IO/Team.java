@@ -1,12 +1,14 @@
+package IO;
 
 public class Team
 {
-	private int teamID;
+	private String teamID;
 	private League league;
 	private String sponsor;
 	private String teamName;
 	private Staff headCoach;
 	private Staff asstCoach;
+	private Staff trainer;
 	private Staff manager;
 	private String website;
 	
@@ -14,11 +16,10 @@ public class Team
 	{
 	}
 	
-	
-	public int getTeamID() {
+	public String getTeamID() {
 		return teamID;
 	}
-	public void setTeamID(int teamID) {
+	public void setTeamID(String teamID) {
 		this.teamID = teamID;
 	}
 	public League getLeague() {
@@ -56,6 +57,12 @@ public class Team
 	}
 	public void setManager(Staff manager) {
 		this.manager = manager;
+	}
+	public Staff getTrainer() {
+		return trainer;
+	}
+	public void setTrainer(Staff trainer) {
+		this.trainer = trainer;
 	}
 	public String getWebsite() {
 		return website;

@@ -7,11 +7,13 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Properties;
 
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
-import org.hibernate.cfg.Configuration;
-import org.hibernate.service.ServiceRegistry;
-import org.hibernate.service.ServiceRegistryBuilder;
+import org.hibernate.*;
+//import org.hibernate.SessionFactory;
+import org.hibernate.cfg.*;
+import org.hibernate.service.*;
+//import org.hibernate.service.ServiceRegistryBuilder;
+
+import IO.Team;
 
 public class TeamDemo
 {
@@ -20,8 +22,8 @@ public class TeamDemo
 	{
 		// TODO Auto-generated method stub
 		Session session = null;
-		  SessionFactory sessionFactory = null;
-		  ServiceRegistry serviceRegistry = null;
+		SessionFactory sessionFactory = null;
+		ServiceRegistry serviceRegistry = null;
 
 		    try {
 
@@ -32,21 +34,22 @@ public class TeamDemo
 		        Version 4 libraries. */
 
 		    	Configuration configuration = new Configuration()
-		    		// .addClass(Book.class)
-		    		// .addResource("book.hbm.xml")
 		    		.addResource("hibernate.cfg.xml")
 		    		.setProperty("hibernate.dialect", "org.hibernate.dialect.DerbyDialect");
 		    	configuration.configure();
 		    	serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();        
 		    	sessionFactory = configuration.buildSessionFactory(serviceRegistry);
 		    	
+		    	//System.out.println(Team.class.getSimpleName());
 		       session = sessionFactory.openSession();
-		       
+		      
 		       String query = "from Team t where t.teamName = ? and t.league = 'NHL'";
-		       List teams = session.createQuery(query).setString(0, "Chicago Blackhawks").list();
-		       for(int i =0; i<teams.size();i++)
+		       List<Team> teams = session.createQuery(query).setString(0, "Chicago Blackhawks").list();
+		       //System.out.println(Team.class.getSimpleName());
+		       for(Team currentTeam: teams)
 		       {
-		    	   System.out.println(teams.get(i));
+		    	   System.out.println(currentTeam.getTeamName());
+		    	   System.out.println(currentTeam.getHeadCoach().getFullName());
 		       }
 		}
 		catch (Exception e)

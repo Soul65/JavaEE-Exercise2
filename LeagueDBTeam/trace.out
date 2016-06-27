@@ -1,0 +1,1070 @@
+[derby][Time:1467046682128][Thread:main][Connection@646be2c3] getAutoCommit () returned true
+[derby][Time:1467046682129][Thread:main][Connection@646be2c3] setAutoCommit (false) called
+[derby][Time:1467046682141][Thread:main][Connection@646be2c3] getMetaData () returned DatabaseMetaData@5a4aa2f2
+[derby][Time:1467046682151][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046682168][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046682170][Thread:main][DatabaseMetaData@5a4aa2f2] getTypeInfo () called
+[derby][Time:1467046682171][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046682173][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682173][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682174][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682174][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682175][Thread:main][ResultSet@4206a205] getString () returned BIGINT
+[derby][Time:1467046682175][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682175][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682176][Thread:main][ResultSet@4206a205] getInt () returned -5
+[derby][Time:1467046682176][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682177][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682177][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682178][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682179][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682179][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682180][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682180][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682181][Thread:main][ResultSet@4206a205] getInt () returned 19
+[derby][Time:1467046682181][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682181][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682182][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682182][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682183][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682183][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682184][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682184][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682184][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682185][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682185][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682186][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682186][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682187][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682187][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682188][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682189][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682190][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682191][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682191][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682192][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682194][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682194][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682195][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682196][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682197][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682198][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682199][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682199][Thread:main][ResultSet@4206a205] getString () returned LONG VARCHAR FOR BIT DATA
+[derby][Time:1467046682200][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682201][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682202][Thread:main][ResultSet@4206a205] getInt () returned -4
+[derby][Time:1467046682202][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682203][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682204][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682205][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682205][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682206][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682207][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682208][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682209][Thread:main][ResultSet@4206a205] getInt () returned 32700
+[derby][Time:1467046682209][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682210][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682211][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682211][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682212][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682213][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682214][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682215][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682215][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682216][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682217][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682218][Thread:main][ResultSet@4206a205] getString () returned X'
+[derby][Time:1467046682219][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682220][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682220][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682221][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682222][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682223][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682224][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682224][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682225][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682226][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682227][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682228][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682228][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682229][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682230][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682231][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682231][Thread:main][ResultSet@4206a205] getString () returned VARCHAR () FOR BIT DATA
+[derby][Time:1467046682232][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682233][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682233][Thread:main][ResultSet@4206a205] getInt () returned -3
+[derby][Time:1467046682234][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682235][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682236][Thread:main][ResultSet@4206a205] getString () returned length
+[derby][Time:1467046682237][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682238][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682239][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682239][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682240][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682241][Thread:main][ResultSet@4206a205] getInt () returned 32672
+[derby][Time:1467046682242][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682243][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682243][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682244][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682245][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682246][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682247][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682247][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682248][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682249][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682250][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682251][Thread:main][ResultSet@4206a205] getString () returned X'
+[derby][Time:1467046682252][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682252][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682253][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682254][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682255][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682256][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682257][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682257][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682258][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682259][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682259][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682260][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682260][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682261][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682261][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682262][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682262][Thread:main][ResultSet@4206a205] getString () returned CHAR () FOR BIT DATA
+[derby][Time:1467046682263][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682263][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682263][Thread:main][ResultSet@4206a205] getInt () returned -2
+[derby][Time:1467046682264][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682264][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682265][Thread:main][ResultSet@4206a205] getString () returned length
+[derby][Time:1467046682265][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682265][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682266][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682266][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682267][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682267][Thread:main][ResultSet@4206a205] getInt () returned 254
+[derby][Time:1467046682268][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682268][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682269][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682269][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682270][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682270][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682270][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682271][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682271][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682272][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682272][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682272][Thread:main][ResultSet@4206a205] getString () returned X'
+[derby][Time:1467046682273][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682273][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682274][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682274][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682275][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682275][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682276][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682276][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682276][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682277][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682277][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682278][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682278][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682278][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682279][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682279][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682279][Thread:main][ResultSet@4206a205] getString () returned LONG VARCHAR
+[derby][Time:1467046682280][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682280][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682281][Thread:main][ResultSet@4206a205] getInt () returned -1
+[derby][Time:1467046682281][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682282][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682282][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682282][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682283][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682283][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682283][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682284][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682284][Thread:main][ResultSet@4206a205] getInt () returned 32700
+[derby][Time:1467046682285][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682285][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682286][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682287][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682287][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682288][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682288][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682289][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682289][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682290][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682290][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682290][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682291][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682292][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682293][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682293][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682294][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682295][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682296][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682297][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682297][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682298][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682299][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682300][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682301][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682301][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682302][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682303][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682304][Thread:main][ResultSet@4206a205] getString () returned CHAR
+[derby][Time:1467046682305][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682305][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682306][Thread:main][ResultSet@4206a205] getInt () returned 1
+[derby][Time:1467046682307][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682308][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682308][Thread:main][ResultSet@4206a205] getString () returned length
+[derby][Time:1467046682309][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682310][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682311][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682312][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682313][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682313][Thread:main][ResultSet@4206a205] getInt () returned 254
+[derby][Time:1467046682314][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682315][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682316][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682317][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682318][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682319][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682320][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682322][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682323][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682323][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682324][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682325][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682327][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682328][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682329][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682330][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682331][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682332][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682333][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682333][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682335][Thread:main][ResultSet@4206a205] getShort () returned 3
+[derby][Time:1467046682335][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682337][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682340][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682343][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682363][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682364][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682368][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682369][Thread:main][ResultSet@4206a205] getString () returned NUMERIC
+[derby][Time:1467046682376][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682377][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682378][Thread:main][ResultSet@4206a205] getInt () returned 2
+[derby][Time:1467046682379][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682379][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682380][Thread:main][ResultSet@4206a205] getString () returned precision,scale
+[derby][Time:1467046682381][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682381][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682382][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682382][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682383][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682383][Thread:main][ResultSet@4206a205] getInt () returned 31
+[derby][Time:1467046682384][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682384][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682385][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682386][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682387][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682387][Thread:main][ResultSet@4206a205] getShort () returned 31
+[derby][Time:1467046682388][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682389][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682389][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682390][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682391][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682392][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682392][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682393][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682394][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682394][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682395][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682395][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682396][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682397][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682398][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682398][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682399][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682400][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682401][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682401][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682402][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682403][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682404][Thread:main][ResultSet@4206a205] getString () returned DECIMAL
+[derby][Time:1467046682405][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682406][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682407][Thread:main][ResultSet@4206a205] getInt () returned 3
+[derby][Time:1467046682408][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682408][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682410][Thread:main][ResultSet@4206a205] getString () returned precision,scale
+[derby][Time:1467046682411][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682411][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682412][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682413][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682414][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682415][Thread:main][ResultSet@4206a205] getInt () returned 31
+[derby][Time:1467046682416][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682417][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682418][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682418][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682419][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682420][Thread:main][ResultSet@4206a205] getShort () returned 31
+[derby][Time:1467046682421][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682422][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682423][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682424][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682424][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682425][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682426][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682427][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682428][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682429][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682430][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682431][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682431][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682432][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682433][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682434][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682435][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682436][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682437][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682438][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682439][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682440][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682441][Thread:main][ResultSet@4206a205] getString () returned INTEGER
+[derby][Time:1467046682442][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682443][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682444][Thread:main][ResultSet@4206a205] getInt () returned 4
+[derby][Time:1467046682445][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682448][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682448][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682449][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682450][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682451][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682452][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682453][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682454][Thread:main][ResultSet@4206a205] getInt () returned 10
+[derby][Time:1467046682455][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682456][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682457][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682458][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682459][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682460][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682461][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682462][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682463][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682464][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682465][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682466][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682467][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682468][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682469][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682470][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682471][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682472][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682472][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682473][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682474][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682475][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682476][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682477][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682478][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682478][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682479][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682480][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682481][Thread:main][ResultSet@4206a205] getString () returned SMALLINT
+[derby][Time:1467046682482][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682483][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682484][Thread:main][ResultSet@4206a205] getInt () returned 5
+[derby][Time:1467046682485][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682486][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682487][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682488][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682489][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682490][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682491][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682491][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682492][Thread:main][ResultSet@4206a205] getInt () returned 5
+[derby][Time:1467046682493][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682495][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682495][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682496][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682497][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682498][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682499][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682499][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682500][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682501][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682502][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682503][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682504][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682505][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682506][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682506][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682507][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682508][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682509][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682510][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682510][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682511][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682512][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682513][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682513][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682514][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682515][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682516][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682516][Thread:main][ResultSet@4206a205] getString () returned FLOAT
+[derby][Time:1467046682517][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682518][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682518][Thread:main][ResultSet@4206a205] getInt () returned 6
+[derby][Time:1467046682519][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682520][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682520][Thread:main][ResultSet@4206a205] getString () returned precision
+[derby][Time:1467046682521][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682522][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682523][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682524][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682525][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682526][Thread:main][ResultSet@4206a205] getInt () returned 52
+[derby][Time:1467046682527][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682528][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682529][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682530][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682530][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682531][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682532][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682533][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682533][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682534][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682535][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682535][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682536][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682537][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682537][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682538][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682539][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682539][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682540][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682541][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682541][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682542][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682543][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682543][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682544][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682545][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682545][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682546][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682547][Thread:main][ResultSet@4206a205] getString () returned REAL
+[derby][Time:1467046682547][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682548][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682549][Thread:main][ResultSet@4206a205] getInt () returned 7
+[derby][Time:1467046682549][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682550][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682551][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682552][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682553][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682554][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682555][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682556][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682557][Thread:main][ResultSet@4206a205] getInt () returned 23
+[derby][Time:1467046682558][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682559][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682560][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682560][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682561][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682563][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682563][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682564][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682565][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682566][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682567][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682568][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682569][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682569][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682570][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682571][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682572][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682573][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682574][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682575][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682576][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682577][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682578][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682578][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682580][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682580][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682581][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682582][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682583][Thread:main][ResultSet@4206a205] getString () returned DOUBLE
+[derby][Time:1467046682584][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682584][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682585][Thread:main][ResultSet@4206a205] getInt () returned 8
+[derby][Time:1467046682586][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682587][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682588][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682589][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682590][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682591][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682592][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682593][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682593][Thread:main][ResultSet@4206a205] getInt () returned 52
+[derby][Time:1467046682594][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682595][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682596][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682597][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682598][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682599][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682600][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682600][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682601][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682602][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682603][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682604][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682605][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682605][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682606][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682607][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682608][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682609][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682610][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682611][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682612][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682613][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682614][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682615][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682616][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682617][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682617][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682618][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682619][Thread:main][ResultSet@4206a205] getString () returned VARCHAR
+[derby][Time:1467046682620][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682621][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682622][Thread:main][ResultSet@4206a205] getInt () returned 12
+[derby][Time:1467046682623][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682624][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682624][Thread:main][ResultSet@4206a205] getString () returned length
+[derby][Time:1467046682625][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682626][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682627][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682627][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682628][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682629][Thread:main][ResultSet@4206a205] getInt () returned 32672
+[derby][Time:1467046682630][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682630][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682631][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682632][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682632][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682633][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682634][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682634][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682635][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682636][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682636][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682637][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682638][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682638][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682639][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682640][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682640][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682641][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682642][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682643][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682643][Thread:main][ResultSet@4206a205] getShort () returned 3
+[derby][Time:1467046682643][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682644][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682644][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682645][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682645][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682646][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682647][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682648][Thread:main][ResultSet@4206a205] getString () returned BOOLEAN
+[derby][Time:1467046682648][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682649][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682650][Thread:main][ResultSet@4206a205] getInt () returned 16
+[derby][Time:1467046682650][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682651][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682652][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682652][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682653][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682654][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682655][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682655][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682656][Thread:main][ResultSet@4206a205] getInt () returned 1
+[derby][Time:1467046682657][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682658][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682659][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682659][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682660][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682660][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682661][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682662][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682663][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682664][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682665][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682666][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682666][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682667][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682668][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682669][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682670][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682670][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682671][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682672][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682673][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682674][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682675][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682676][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682676][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682677][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682678][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682679][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682680][Thread:main][ResultSet@4206a205] getString () returned DATE
+[derby][Time:1467046682680][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682681][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682682][Thread:main][ResultSet@4206a205] getInt () returned 91
+[derby][Time:1467046682683][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682684][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682685][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682686][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682687][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682688][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682689][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682689][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682690][Thread:main][ResultSet@4206a205] getInt () returned 10
+[derby][Time:1467046682691][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682692][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682693][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682694][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682695][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682695][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682696][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682697][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682698][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682699][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682700][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682700][Thread:main][ResultSet@4206a205] getString () returned DATE'
+[derby][Time:1467046682701][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682702][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682703][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682704][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682705][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682706][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682707][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682708][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682709][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682709][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682710][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682711][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682712][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682712][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682713][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682714][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682715][Thread:main][ResultSet@4206a205] getString () returned TIME
+[derby][Time:1467046682716][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682716][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682717][Thread:main][ResultSet@4206a205] getInt () returned 92
+[derby][Time:1467046682718][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682719][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682720][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682721][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682721][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682722][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682723][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682724][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682725][Thread:main][ResultSet@4206a205] getInt () returned 8
+[derby][Time:1467046682726][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682726][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682727][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682728][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682729][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682730][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682731][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682731][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682732][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682732][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682733][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682733][Thread:main][ResultSet@4206a205] getString () returned TIME'
+[derby][Time:1467046682734][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682734][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682735][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682735][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682735][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682736][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682737][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682737][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682738][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682739][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682740][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682740][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682741][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682742][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682743][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682743][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682744][Thread:main][ResultSet@4206a205] getString () returned TIMESTAMP
+[derby][Time:1467046682745][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682746][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682746][Thread:main][ResultSet@4206a205] getInt () returned 93
+[derby][Time:1467046682747][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682748][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682749][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682749][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682750][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682751][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682751][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682752][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682753][Thread:main][ResultSet@4206a205] getInt () returned 29
+[derby][Time:1467046682754][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682754][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682755][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682756][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682757][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682757][Thread:main][ResultSet@4206a205] getShort () returned 9
+[derby][Time:1467046682758][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682759][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682759][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682760][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682760][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682761][Thread:main][ResultSet@4206a205] getString () returned TIMESTAMP'
+[derby][Time:1467046682761][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682762][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682762][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682763][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682763][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682764][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682764][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682765][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682766][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682766][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682767][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682768][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682769][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682770][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682771][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682772][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682773][Thread:main][ResultSet@4206a205] getString () returned OBJECT
+[derby][Time:1467046682774][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682775][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682776][Thread:main][ResultSet@4206a205] getInt () returned 2000
+[derby][Time:1467046682777][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682778][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682778][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682779][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682780][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682781][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682782][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682782][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682783][Thread:main][ResultSet@4206a205] getInt () returned 0
+[derby][Time:1467046682784][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682785][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682786][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682786][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682787][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682788][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682789][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682790][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682791][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682791][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682792][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682793][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682794][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682795][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682796][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682796][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682799][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682799][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682800][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682801][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682802][Thread:main][ResultSet@4206a205] getShort () returned 2
+[derby][Time:1467046682803][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682804][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682804][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682805][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682806][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682807][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682808][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682809][Thread:main][ResultSet@4206a205] getString () returned BLOB
+[derby][Time:1467046682810][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682811][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682812][Thread:main][ResultSet@4206a205] getInt () returned 2004
+[derby][Time:1467046682813][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682813][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682814][Thread:main][ResultSet@4206a205] getString () returned length
+[derby][Time:1467046682815][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682816][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682817][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682818][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682818][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682819][Thread:main][ResultSet@4206a205] getInt () returned 2147483647
+[derby][Time:1467046682820][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682821][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682822][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682823][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682824][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682825][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682826][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682826][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682827][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682828][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682829][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682830][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682831][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682832][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682832][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682833][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682834][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682835][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682836][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682836][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682837][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682838][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682839][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682840][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682841][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682841][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682842][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682842][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682843][Thread:main][ResultSet@4206a205] getString () returned CLOB
+[derby][Time:1467046682843][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682844][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682844][Thread:main][ResultSet@4206a205] getInt () returned 2005
+[derby][Time:1467046682845][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682845][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682846][Thread:main][ResultSet@4206a205] getString () returned length
+[derby][Time:1467046682846][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682847][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682847][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682848][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682848][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682848][Thread:main][ResultSet@4206a205] getInt () returned 2147483647
+[derby][Time:1467046682849][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682849][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682850][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682850][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682851][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682851][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682852][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682852][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682852][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682853][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682854][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682854][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682855][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682855][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682856][Thread:main][ResultSet@4206a205] getString () returned '
+[derby][Time:1467046682857][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682858][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682859][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682859][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682860][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682861][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682862][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682862][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682863][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682864][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682865][Thread:main][ResultSet@4206a205] next () returned true
+[derby][Time:1467046682865][Thread:main][ResultSet@4206a205] getString (TYPE_NAME) called
+[derby][Time:1467046682866][Thread:main][ResultSet@4206a205] getString (1) called
+[derby][Time:1467046682867][Thread:main][ResultSet@4206a205] getString () returned XML
+[derby][Time:1467046682868][Thread:main][ResultSet@4206a205] getInt (DATA_TYPE) called
+[derby][Time:1467046682868][Thread:main][ResultSet@4206a205] getInt (2) called
+[derby][Time:1467046682869][Thread:main][ResultSet@4206a205] getInt () returned 2009
+[derby][Time:1467046682870][Thread:main][ResultSet@4206a205] getString (CREATE_PARAMS) called
+[derby][Time:1467046682870][Thread:main][ResultSet@4206a205] getString (6) called
+[derby][Time:1467046682872][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682873][Thread:main][ResultSet@4206a205] getBoolean (UNSIGNED_ATTRIBUTE) called
+[derby][Time:1467046682874][Thread:main][ResultSet@4206a205] getBoolean (10) called
+[derby][Time:1467046682874][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682875][Thread:main][ResultSet@4206a205] getInt (PRECISION) called
+[derby][Time:1467046682876][Thread:main][ResultSet@4206a205] getInt (3) called
+[derby][Time:1467046682877][Thread:main][ResultSet@4206a205] getInt () returned 0
+[derby][Time:1467046682878][Thread:main][ResultSet@4206a205] getShort (MINIMUM_SCALE) called
+[derby][Time:1467046682879][Thread:main][ResultSet@4206a205] getShort (14) called
+[derby][Time:1467046682880][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682880][Thread:main][ResultSet@4206a205] getShort (MAXIMUM_SCALE) called
+[derby][Time:1467046682881][Thread:main][ResultSet@4206a205] getShort (15) called
+[derby][Time:1467046682882][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682883][Thread:main][ResultSet@4206a205] getBoolean (FIXED_PREC_SCALE) called
+[derby][Time:1467046682883][Thread:main][ResultSet@4206a205] getBoolean (11) called
+[derby][Time:1467046682884][Thread:main][ResultSet@4206a205] getBoolean () returned false
+[derby][Time:1467046682885][Thread:main][ResultSet@4206a205] getString (LITERAL_PREFIX) called
+[derby][Time:1467046682885][Thread:main][ResultSet@4206a205] getString (4) called
+[derby][Time:1467046682886][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682887][Thread:main][ResultSet@4206a205] getString (LITERAL_SUFFIX) called
+[derby][Time:1467046682888][Thread:main][ResultSet@4206a205] getString (5) called
+[derby][Time:1467046682889][Thread:main][ResultSet@4206a205] getString () returned null
+[derby][Time:1467046682890][Thread:main][ResultSet@4206a205] getBoolean (CASE_SENSITIVE) called
+[derby][Time:1467046682891][Thread:main][ResultSet@4206a205] getBoolean (8) called
+[derby][Time:1467046682892][Thread:main][ResultSet@4206a205] getBoolean () returned true
+[derby][Time:1467046682893][Thread:main][ResultSet@4206a205] getShort (SEARCHABLE) called
+[derby][Time:1467046682894][Thread:main][ResultSet@4206a205] getShort (9) called
+[derby][Time:1467046682894][Thread:main][ResultSet@4206a205] getShort () returned 0
+[derby][Time:1467046682895][Thread:main][ResultSet@4206a205] getShort (NULLABLE) called
+[derby][Time:1467046682896][Thread:main][ResultSet@4206a205] getShort (7) called
+[derby][Time:1467046682897][Thread:main][ResultSet@4206a205] getShort () returned 1
+[derby][Time:1467046682898][Thread:main][ResultSet@4206a205] next () called
+[derby][Time:1467046682900][Thread:main][ResultSet@4206a205] next () returned false
+[derby][Time:1467046682900][Thread:main][ResultSet@4206a205] close () called
+[derby][Time:1467046682902][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046682955][Thread:main][Connection@646be2c3] getCatalog () returned null
+[derby][Time:1467046682959][Thread:main][Connection@646be2c3] getMetaData () returned DatabaseMetaData@5a4aa2f2
+[derby][Time:1467046682960][Thread:main][Connection@646be2c3] createClob () called
+[derby][Time:1467046682966][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046682967][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046682968][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046682969][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046682976][Thread:main][Connection@646be2c3] createClob () returned Clob@290d210d
+[derby][Time:1467046682976][Thread:main][Clob@290d210d] free () called
+[derby][Time:1467046682978][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683361][Thread:Finalizer][PreparedStatement@77e4c80f] finalize () called
+[derby][Time:1467046683362][Thread:Finalizer][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683363][Thread:Finalizer][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683364][Thread:Finalizer][PreparedStatement@6279cee3] finalize () called
+[derby][Time:1467046683365][Thread:Finalizer][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683366][Thread:Finalizer][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683751][Thread:main][Connection@646be2c3] prepareStatement (select team0_.TEAMID as TEAMID1_2_, team0_.SPONSOR as SPONSOR2_2_, team0_.teamName as teamName3_2_, team0_.WEBSITE as WEBSITE4_2_, team0_.HEADCOACH as HEADCOAC5_2_, team0_.ASSTCOACH as ASSTCOAC6_2_, team0_.TRAINER as TRAINER7_2_, team0_.MANAGER as MANAGER8_2_, team0_.LEAGUE as LEAGUE9_2_ from TEAM team0_ where team0_.teamName=? and team0_.LEAGUE='NHL') called
+[derby][Time:1467046683753][Thread:main][Connection@646be2c3] prepareStatement () returned PreparedStatement@4d6025c5
+[derby][Time:1467046683755][Thread:main][PreparedStatement@4d6025c5] setString (1, Chicago Blackhawks) called
+[derby][Time:1467046683756][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683759][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683759][Thread:main][PreparedStatement@4d6025c5] executeQuery () called
+[derby][Time:1467046683760][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683761][Thread:main][PreparedStatement@4d6025c5] executeQuery () returned ResultSet@6ea2bc93
+[derby][Time:1467046683762][Thread:main][ResultSet@6ea2bc93] next () called
+[derby][Time:1467046683763][Thread:main][ResultSet@6ea2bc93] next () returned true
+[derby][Time:1467046683764][Thread:main][ResultSet@6ea2bc93] getString (TEAMID1_2_) called
+[derby][Time:1467046683765][Thread:main][ResultSet@6ea2bc93] getString (1) called
+[derby][Time:1467046683765][Thread:main][ResultSet@6ea2bc93] getString () returned BLK001
+[derby][Time:1467046683766][Thread:main][ResultSet@6ea2bc93] wasNull () called
+[derby][Time:1467046683766][Thread:main][ResultSet@6ea2bc93] wasNull () returned false
+[derby][Time:1467046683772][Thread:main][ResultSet@6ea2bc93] getString (SPONSOR2_2_) called
+[derby][Time:1467046683773][Thread:main][ResultSet@6ea2bc93] getString (2) called
+[derby][Time:1467046683773][Thread:main][ResultSet@6ea2bc93] getString () returned Quill.com
+[derby][Time:1467046683774][Thread:main][ResultSet@6ea2bc93] wasNull () called
+[derby][Time:1467046683774][Thread:main][ResultSet@6ea2bc93] wasNull () returned false
+[derby][Time:1467046683774][Thread:main][ResultSet@6ea2bc93] getString (teamName3_2_) called
+[derby][Time:1467046683775][Thread:main][ResultSet@6ea2bc93] getString (3) called
+[derby][Time:1467046683775][Thread:main][ResultSet@6ea2bc93] getString () returned Chicago Blackhawks
+[derby][Time:1467046683776][Thread:main][ResultSet@6ea2bc93] wasNull () called
+[derby][Time:1467046683776][Thread:main][ResultSet@6ea2bc93] wasNull () returned false
+[derby][Time:1467046683776][Thread:main][ResultSet@6ea2bc93] getString (WEBSITE4_2_) called
+[derby][Time:1467046683777][Thread:main][ResultSet@6ea2bc93] getString (4) called
+[derby][Time:1467046683777][Thread:main][ResultSet@6ea2bc93] getString () returned blackhawks.nhl.com
+[derby][Time:1467046683777][Thread:main][ResultSet@6ea2bc93] wasNull () called
+[derby][Time:1467046683778][Thread:main][ResultSet@6ea2bc93] wasNull () returned false
+[derby][Time:1467046683779][Thread:main][ResultSet@6ea2bc93] getInt (HEADCOAC5_2_) called
+[derby][Time:1467046683779][Thread:main][ResultSet@6ea2bc93] getInt (5) called
+[derby][Time:1467046683780][Thread:main][ResultSet@6ea2bc93] getInt () returned 20062
+[derby][Time:1467046683780][Thread:main][ResultSet@6ea2bc93] wasNull () called
+[derby][Time:1467046683780][Thread:main][ResultSet@6ea2bc93] wasNull () returned false
+[derby][Time:1467046683781][Thread:main][ResultSet@6ea2bc93] getInt (ASSTCOAC6_2_) called
+[derby][Time:1467046683781][Thread:main][ResultSet@6ea2bc93] getInt (6) called
+[derby][Time:1467046683782][Thread:main][ResultSet@6ea2bc93] getInt () returned 20063
+[derby][Time:1467046683782][Thread:main][ResultSet@6ea2bc93] wasNull () called
+[derby][Time:1467046683782][Thread:main][ResultSet@6ea2bc93] wasNull () returned false
+[derby][Time:1467046683783][Thread:main][ResultSet@6ea2bc93] getInt (TRAINER7_2_) called
+[derby][Time:1467046683783][Thread:main][ResultSet@6ea2bc93] getInt (7) called
+[derby][Time:1467046683783][Thread:main][ResultSet@6ea2bc93] getInt () returned 20064
+[derby][Time:1467046683784][Thread:main][ResultSet@6ea2bc93] wasNull () called
+[derby][Time:1467046683784][Thread:main][ResultSet@6ea2bc93] wasNull () returned false
+[derby][Time:1467046683785][Thread:main][ResultSet@6ea2bc93] getInt (MANAGER8_2_) called
+[derby][Time:1467046683785][Thread:main][ResultSet@6ea2bc93] getInt (8) called
+[derby][Time:1467046683785][Thread:main][ResultSet@6ea2bc93] getInt () returned 20061
+[derby][Time:1467046683786][Thread:main][ResultSet@6ea2bc93] wasNull () called
+[derby][Time:1467046683786][Thread:main][ResultSet@6ea2bc93] wasNull () returned false
+[derby][Time:1467046683786][Thread:main][ResultSet@6ea2bc93] getString (LEAGUE9_2_) called
+[derby][Time:1467046683787][Thread:main][ResultSet@6ea2bc93] getString (9) called
+[derby][Time:1467046683787][Thread:main][ResultSet@6ea2bc93] getString () returned NHL     
+[derby][Time:1467046683788][Thread:main][ResultSet@6ea2bc93] wasNull () called
+[derby][Time:1467046683788][Thread:main][ResultSet@6ea2bc93] wasNull () returned false
+[derby][Time:1467046683789][Thread:main][ResultSet@6ea2bc93] next () called
+[derby][Time:1467046683790][Thread:main][ResultSet@6ea2bc93] next () returned false
+[derby][Time:1467046683836][Thread:main][ResultSet@6ea2bc93] close () called
+[derby][Time:1467046683837][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683837][Thread:main][PreparedStatement@4d6025c5] getWarnings () returned null
+[derby][Time:1467046683838][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683838][Thread:main][PreparedStatement@4d6025c5] clearWarnings () called
+[derby][Time:1467046683839][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683839][Thread:main][PreparedStatement@4d6025c5] getMaxRows () returned 0
+[derby][Time:1467046683840][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683840][Thread:main][PreparedStatement@4d6025c5] getLargeMaxRows () returned 0
+[derby][Time:1467046683841][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683841][Thread:main][PreparedStatement@4d6025c5] getQueryTimeout () returned 0
+[derby][Time:1467046683842][Thread:main][PreparedStatement@4d6025c5] close () called
+[derby][Time:1467046683842][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683843][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683844][Thread:main][Connection@646be2c3] getAutoCommit () returned false
+[derby][Time:1467046683844][Thread:main][Connection@646be2c3] prepareStatement (select staff0_.STAFFID as STAFFID1_1_0_, staff0_.LASTNAME as LASTNAME2_1_0_, staff0_.FIRSTNAME as FIRSTNAM3_1_0_, staff0_.STREETADDRESS as STREETAD4_1_0_, staff0_.CITY as CITY5_1_0_, staff0_.STATE_PROVINCE as STATE_PR6_1_0_, staff0_.POSTALCODE as POSTALCO7_1_0_, staff0_.COUNTRY as COUNTRY8_1_0_, staff0_.PHONE as PHONE9_1_0_, staff0_.MOBILE as MOBILE10_1_0_, staff0_.EMAIL as EMAIL11_1_0_, staff0_.CERTIFICATION as CERTIFI12_1_0_ from STAFF staff0_ where staff0_.STAFFID=?) called
+[derby][Time:1467046683845][Thread:main][Connection@646be2c3] prepareStatement () returned PreparedStatement@3e74829
+[derby][Time:1467046683847][Thread:main][PreparedStatement@3e74829] setInt (1, 20062) called
+[derby][Time:1467046683847][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683849][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683850][Thread:main][PreparedStatement@3e74829] executeQuery () called
+[derby][Time:1467046683850][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683852][Thread:main][PreparedStatement@3e74829] executeQuery () returned ResultSet@7d286fb6
+[derby][Time:1467046683855][Thread:main][ResultSet@7d286fb6] next () called
+[derby][Time:1467046683856][Thread:main][ResultSet@7d286fb6] next () returned true
+[derby][Time:1467046683859][Thread:main][ResultSet@7d286fb6] getString (LASTNAME2_1_0_) called
+[derby][Time:1467046683860][Thread:main][ResultSet@7d286fb6] getString (2) called
+[derby][Time:1467046683861][Thread:main][ResultSet@7d286fb6] getString () returned Quenneville
+[derby][Time:1467046683861][Thread:main][ResultSet@7d286fb6] wasNull () called
+[derby][Time:1467046683862][Thread:main][ResultSet@7d286fb6] wasNull () returned false
+[derby][Time:1467046683863][Thread:main][ResultSet@7d286fb6] getString (FIRSTNAM3_1_0_) called
+[derby][Time:1467046683863][Thread:main][ResultSet@7d286fb6] getString (3) called
+[derby][Time:1467046683864][Thread:main][ResultSet@7d286fb6] getString () returned Joel
+[derby][Time:1467046683865][Thread:main][ResultSet@7d286fb6] wasNull () called
+[derby][Time:1467046683866][Thread:main][ResultSet@7d286fb6] wasNull () returned false
+[derby][Time:1467046683869][Thread:main][ResultSet@7d286fb6] getString (STREETAD4_1_0_) called
+[derby][Time:1467046683870][Thread:main][ResultSet@7d286fb6] getString (4) called
+[derby][Time:1467046683871][Thread:main][ResultSet@7d286fb6] getString () returned null
+[derby][Time:1467046683872][Thread:main][ResultSet@7d286fb6] getString (CITY5_1_0_) called
+[derby][Time:1467046683873][Thread:main][ResultSet@7d286fb6] getString (5) called
+[derby][Time:1467046683874][Thread:main][ResultSet@7d286fb6] getString () returned Windsor
+[derby][Time:1467046683875][Thread:main][ResultSet@7d286fb6] wasNull () called
+[derby][Time:1467046683875][Thread:main][ResultSet@7d286fb6] wasNull () returned false
+[derby][Time:1467046683876][Thread:main][ResultSet@7d286fb6] getString (STATE_PR6_1_0_) called
+[derby][Time:1467046683877][Thread:main][ResultSet@7d286fb6] getString (6) called
+[derby][Time:1467046683878][Thread:main][ResultSet@7d286fb6] getString () returned Ontario
+[derby][Time:1467046683878][Thread:main][ResultSet@7d286fb6] wasNull () called
+[derby][Time:1467046683879][Thread:main][ResultSet@7d286fb6] wasNull () returned false
+[derby][Time:1467046683880][Thread:main][ResultSet@7d286fb6] getString (POSTALCO7_1_0_) called
+[derby][Time:1467046683881][Thread:main][ResultSet@7d286fb6] getString (7) called
+[derby][Time:1467046683882][Thread:main][ResultSet@7d286fb6] getString () returned null
+[derby][Time:1467046683883][Thread:main][ResultSet@7d286fb6] getString (COUNTRY8_1_0_) called
+[derby][Time:1467046683884][Thread:main][ResultSet@7d286fb6] getString (8) called
+[derby][Time:1467046683885][Thread:main][ResultSet@7d286fb6] getString () returned Canada
+[derby][Time:1467046683885][Thread:main][ResultSet@7d286fb6] wasNull () called
+[derby][Time:1467046683886][Thread:main][ResultSet@7d286fb6] wasNull () returned false
+[derby][Time:1467046683887][Thread:main][ResultSet@7d286fb6] getString (PHONE9_1_0_) called
+[derby][Time:1467046683888][Thread:main][ResultSet@7d286fb6] getString (9) called
+[derby][Time:1467046683889][Thread:main][ResultSet@7d286fb6] getString () returned null
+[derby][Time:1467046683889][Thread:main][ResultSet@7d286fb6] getString (MOBILE10_1_0_) called
+[derby][Time:1467046683890][Thread:main][ResultSet@7d286fb6] getString (10) called
+[derby][Time:1467046683891][Thread:main][ResultSet@7d286fb6] getString () returned null
+[derby][Time:1467046683892][Thread:main][ResultSet@7d286fb6] getString (EMAIL11_1_0_) called
+[derby][Time:1467046683893][Thread:main][ResultSet@7d286fb6] getString (11) called
+[derby][Time:1467046683893][Thread:main][ResultSet@7d286fb6] getString () returned null
+[derby][Time:1467046683894][Thread:main][ResultSet@7d286fb6] getString (CERTIFI12_1_0_) called
+[derby][Time:1467046683895][Thread:main][ResultSet@7d286fb6] getString (12) called
+[derby][Time:1467046683895][Thread:main][ResultSet@7d286fb6] getString () returned null
+[derby][Time:1467046683897][Thread:main][ResultSet@7d286fb6] next () called
+[derby][Time:1467046683898][Thread:main][ResultSet@7d286fb6] next () returned false
+[derby][Time:1467046683899][Thread:main][ResultSet@7d286fb6] close () called
+[derby][Time:1467046683900][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683902][Thread:main][PreparedStatement@3e74829] getWarnings () returned null
+[derby][Time:1467046683902][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683903][Thread:main][PreparedStatement@3e74829] clearWarnings () called
+[derby][Time:1467046683904][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683905][Thread:main][PreparedStatement@3e74829] getMaxRows () returned 0
+[derby][Time:1467046683906][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683907][Thread:main][PreparedStatement@3e74829] getLargeMaxRows () returned 0
+[derby][Time:1467046683908][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683909][Thread:main][PreparedStatement@3e74829] getQueryTimeout () returned 0
+[derby][Time:1467046683910][Thread:main][PreparedStatement@3e74829] close () called
+[derby][Time:1467046683910][Thread:main][Connection@646be2c3] isClosed () returned false
+[derby][Time:1467046683911][Thread:main][Connection@646be2c3] isClosed () returned false

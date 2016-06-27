@@ -1,10 +1,11 @@
+package IO;
 
 public class Staff
 {
 	private int StaffID;
 	private String lastName;
 	private String firstName;
-	private String address;
+	private String streetAddress;
 	private String city;
 	private String stateProvince;
 	private String postalCode;
@@ -19,7 +20,11 @@ public class Staff
 
 	}
 	
-
+	public String getFullName()
+	{
+		return firstName + " " + lastName;
+	}
+	
 	public int getStaffID() {
 		return StaffID;
 	}
@@ -38,11 +43,11 @@ public class Staff
 	public void setFirstName(String firstName) {
 		this.firstName = firstName;
 	}
-	public String getAddress() {
-		return address;
+	public String getStreetAddress() {
+		return streetAddress;
 	}
-	public void setAddress(String address) {
-		this.address = address;
+	public void setStreetAddress(String streetAddress) {
+		this.streetAddress = streetAddress;
 	}
 	public String getCity() {
 		return city;
