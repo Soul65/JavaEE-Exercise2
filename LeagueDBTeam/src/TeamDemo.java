@@ -65,7 +65,7 @@ public class TeamDemo
 		       League newLeague = new League();
 		       newLeague.setLeagueID("NHL");
 		       
-		       newTeam.setTeamID("ALD506");
+		       newTeam.setTeamID("888777");
 		       newTeam.setTeamName("newbies");
 		       newTeam.setLeague(newLeague);
 
@@ -99,8 +99,31 @@ public class TeamDemo
 		       
 		       session.save(newTeam);		       
 		       
-		       session.getTransaction().rollback();
+		       //session.getTransaction().commit();
+		       tx.commit();
 		       
+		       //Pull data that was just committed
+		       String query2 = "from Team t where t.teamID = ?";
+		       List<Team> addedTeam = session.createQuery(query2).setString(0, newTeam.getTeamID()).list();
+		       
+		       for(Team currentTeam: addedTeam)
+		       {
+		    	   System.out.println(currentTeam.getTeamName());
+		    	   System.out.println(currentTeam.getHeadCoach().getFullName());
+		    	   System.out.println(currentTeam.getAsstCoach().getFullName());
+		    	   System.out.println(currentTeam.getManager().getFullName());
+		    	   System.out.println(currentTeam.getTrainer().getFullName());
+		    	   System.out.println(currentTeam.getSponsor());
+		    	   System.out.println(currentTeam.getLeague().getLeagueName());
+		    	   
+		       }
+		       
+		       //Delete record just added to database
+//		       query = "DELETE from Team t where t.teamID = ?";
+//		       session.createQuery(query).setString(0, newTeam.getTeamID()).executeUpdate();
+//		       
+//		       session.delete(newTeam);
+
 		       session.close();
 		       
 		}
