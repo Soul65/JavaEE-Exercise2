@@ -22,6 +22,7 @@ public class TeamDemo
 		    
 		    session = sessionFactory.openSession();
 		    
+		    List<Team> teams = session.createQuery("from Team where teamName = ?").setString(0, "Chicago Blackhawks").list();
 
 		    for(Team currentTeam : teams)
 		    {
@@ -56,11 +57,11 @@ public class TeamDemo
 		    session.save(newStaff);
 		       
 		    session.save(newTeam);		       
-		       
+		    
+		    session.beginTransaction().commit();
 		       
 		    //Pull data that was just committed
-		    List<Team> addedTeam = session.createQuery("from Team t "
-		    		+ "where t.teamID = ?").setString(0, newTeam.getTeamID()).list();
+	        List<Team> addedTeam = session.createQuery("from Team where teamID = ?").setString(0, newTeam.getTeamID()).list();
 		       
 	        for(Team currentTeam : addedTeam)
 	        {
@@ -76,11 +77,17 @@ public class TeamDemo
 		    //Delete record just added to database
 //	        query = "DELETE from Team t where t.teamID = ?";
 //	        session.createQuery(query).setString(0, newTeam.getTeamID()).executeUpdate();	       
+//	        session.delete(newTeam);	        	       
 		}
 		catch (Exception e)
 		{
 			e.printStackTrace();
 		}
+	    finally
+	    {
+		    //session.close();
+		    sessionFactory.close();
+	    }
 	}
 
 }
