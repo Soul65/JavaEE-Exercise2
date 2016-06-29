@@ -85,7 +85,6 @@ public class TeamDemo
 		}
 	    finally
 	    {
-		    //session.close();
 		    sessionFactory.close();
 	    }
 	}

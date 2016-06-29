@@ -9,7 +9,7 @@
 
       <id name="leagueID">
 	  	<column name="LEAGUEID" not-null="true"/>
-	  	<generator class="native"/>
+	  	<generator class="assigned"/>
 	  </id>
 
 	  <property name="leagueName" >
