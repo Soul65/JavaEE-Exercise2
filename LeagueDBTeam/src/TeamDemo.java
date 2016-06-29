@@ -19,11 +19,9 @@ public class TeamDemo
 		    configuration.configure();
 		    serviceRegistry = new ServiceRegistryBuilder().applySettings(configuration.getProperties()).buildServiceRegistry();        
 		    sessionFactory = configuration.buildSessionFactory(serviceRegistry);
-		    	
+		    
 		    session = sessionFactory.openSession();
-		     
-		    List<Team> teams = session.createQuery("from Team t "
-		    		+ "where t.teamName = ?").setString(0, "Chicago Blackhawks").list();
+		    
 
 		    for(Team currentTeam : teams)
 		    {
@@ -55,14 +53,10 @@ public class TeamDemo
 		    newTeam.setManager(newStaff);
 		    newTeam.setTrainer(newStaff);
 		       
-		    Transaction tx = session.beginTransaction();
-		       
 		    session.save(newStaff);
 		       
 		    session.save(newTeam);		       
 		       
-	        //session.getTransaction().commit();
-		    tx.commit();
 		       
 		    //Pull data that was just committed
 		    List<Team> addedTeam = session.createQuery("from Team t "
@@ -82,9 +76,6 @@ public class TeamDemo
 		    //Delete record just added to database
 //	        query = "DELETE from Team t where t.teamID = ?";
 //	        session.createQuery(query).setString(0, newTeam.getTeamID()).executeUpdate();	       
-//	        session.delete(newTeam);
-	        sessionFactory.close();
-		    session.close();	       
 		}
 		catch (Exception e)
 		{
