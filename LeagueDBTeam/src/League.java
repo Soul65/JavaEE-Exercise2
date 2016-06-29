@@ -1,31 +1,38 @@
-package IO;
-
 public class League
 {
 	private String leagueID;
 	private String leagueName;
 	private String leagueSponsor;
 	
-	public League()
-	{
-	}
+	public League(){}
 	
-	public String getLeagueID() {
+	public String getLeagueID() 
+	{
 		return leagueID;
 	}
-	public void setLeagueID(String leagueID) {
+	
+	public void setLeagueID(String leagueID) 
+	{
 		this.leagueID = leagueID;
 	}
-	public String getLeagueName() {
+	
+	public String getLeagueName() 
+	{
 		return leagueName;
 	}
-	public void setLeagueName(String leagueName) {
+	
+	public void setLeagueName(String leagueName) 
+	{
 		this.leagueName = leagueName;
 	}
-	public String getLeagueSponsor() {
+	
+	public String getLeagueSponsor() 
+	{
 		return leagueSponsor;
 	}
-	public void setLeagueSponsor(String leagueSponsor) {
+	
+	public void setLeagueSponsor(String leagueSponsor) 
+	{
 		this.leagueSponsor = leagueSponsor;
 	}
 }

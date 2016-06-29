@@ -2,47 +2,45 @@
 <!DOCTYPE hibernate-mapping PUBLIC 
     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
 	"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+	
 <hibernate-mapping>
 
-  <class name="IO.Team" table="TEAM">
+  <class name="Team" table="TEAM">
 
       <id name="teamID">
       	<column name="TEAMID" not-null="true"/>
 	  	<generator class="assigned"/>
 	  </id>
 
-
-
-	  <property name="sponsor" >
-		 <column name="SPONSOR" />
+	  <property name="sponsor">
+		 <column name="SPONSOR"/>
 	  </property>
 	  
 	  <property name="teamName" not-null="true">
-		 <column name="teamName" />
+		 <column name="teamName"/>
 	  </property>
 	  	  
-	  <property name="website" >
-		 <column name="WEBSITE" />
+	  <property name="website">
+		 <column name="WEBSITE"/>
 	  </property>
 	   
-	  
-	  <many-to-one name="headCoach" class="IO.Staff">
+	  <many-to-one name="headCoach" class="Staff">
 	  	<column name="HEADCOACH"/>
 	  </many-to-one>
 	  
-	  <many-to-one name="asstCoach" class="IO.Staff">
+	  <many-to-one name="asstCoach" class="Staff">
 	  	<column name="ASSTCOACH"/>
 	  </many-to-one>
 	  
-	  <many-to-one name="trainer" class="IO.Staff">
+	  <many-to-one name="trainer" class="Staff">
 	  	<column name="TRAINER"/>
 	  </many-to-one>
 	  
-	  <many-to-one name="manager" class="IO.Staff">
+	  <many-to-one name="manager" class="Staff">
 	  	<column name="MANAGER"/>
 	  </many-to-one>
 	  
-	  <many-to-one name="league" class="IO.League">
+	  <many-to-one name="league" class="League">
 	  	<column name="LEAGUE"/>
 	  </many-to-one>
 	  

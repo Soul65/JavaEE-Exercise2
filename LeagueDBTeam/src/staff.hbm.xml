@@ -2,14 +2,14 @@
 <!DOCTYPE hibernate-mapping PUBLIC 
     "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
     "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+    
 <hibernate-mapping>
 
-  <class name="IO.Staff" table="STAFF">
+  <class name="Staff" table="STAFF">
 
       <id name="staffID">
-      <column name="STAFFID" not-null="true"/>
-	  	<generator class="native"/>
-	  	
+      	<column name="STAFFID" not-null="true"/>
+	  	<generator class="native"/>	  	
 	  </id>
 
 	  <property name="lastName" not-null="true">
